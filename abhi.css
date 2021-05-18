@@ -244,9 +244,10 @@ footer .footerlogo{
 }
 footer .footer-socials a{
     margin-right: 1rem;
-}
-footer .footer-socials a{
     margin-bottom: 2rem;
+}
+footer .footer-socials a:hover{
+    color:rec
 }
 footer.copyright{
     color:ghostwhite;
