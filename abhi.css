@@ -152,7 +152,7 @@ section.services .card-wrapper .card{
     background: var(--pure);
     padding: 3rem 2rem ;
     position: relative;
-    padding-top: 8rem;
+    padding-top: 1rem;
     text-align: center;
 }
 
