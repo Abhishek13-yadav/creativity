@@ -77,7 +77,7 @@ header nav .branding {
   margin-top: -7rem;
 }
 section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 section.about h1 {
   margin-bottom: 1rem;
@@ -125,15 +125,15 @@ section.services {
   background: var(--light);
 }
 section.services .card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3 1fr);
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   grid-column-gap: 2rem;
-  grid-row-gap: 5rem;
+  grid-row-gap: 2rem;
 }
 section.services .card-wrapper .card {
+  width: 30%;
   background: var(--pure);
   padding: 3rem 2rem;
   position: relative;
